@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
 
-#if TEST
+#ifdef TEST
 
 #include "secretServiceDBus.h"
 #include <sys/types.h>

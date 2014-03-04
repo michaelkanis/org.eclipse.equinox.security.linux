@@ -10,5 +10,5 @@ Eclipse-PlatformFilter: (osgi.os=linux)
 Bundle-Localization: fragment
 Export-Package: org.eclipse.equinox.internal.security.linux;x-internal:=true,
  org.eclipse.equinox.internal.security.linux.nls;x-internal:=true
-Bundle-NativeCode: lib-c/x86/libsecretServiceDBus.so; selection-filter="(& (osgi.os=linux) (osgi.arch=x86))",
- lib-c/x86_64/libsecretServiceDBus.so; selection-filter="(& (osgi.os=linux) (osgi.arch=x86_64))"
+Bundle-NativeCode: x86/libsecretServiceDBus.so; selection-filter="(& (osgi.os=linux) (osgi.arch=x86))",
+ x86_64/libsecretServiceDBus.so; selection-filter="(& (osgi.os=linux) (osgi.arch=x86_64))"
