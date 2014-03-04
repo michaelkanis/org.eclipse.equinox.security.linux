@@ -6,8 +6,6 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
 
-#ifdef TEST
-
 #include "secretServiceDBus.h"
 #include <sys/types.h>
 #include <stdlib.h>
@@ -78,5 +76,3 @@ void main(int argc, char** argv)
 	free(path);
 	free(session);
 }
-
-#endif
